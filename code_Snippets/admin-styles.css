@@ -1,0 +1,51 @@
+/* Add your custom styles for the admin page */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.admin-panel {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.slot-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Style for vacant slots */
+.vacant-slot {
+    background-color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style for booked slots */
+.booked-slot {
+    background-color: #ccc;
+    border: 1px solid #777;
+    text-align: center;
+    padding: 10px;
+}

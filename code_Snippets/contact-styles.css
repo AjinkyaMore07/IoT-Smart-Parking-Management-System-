@@ -1,0 +1,53 @@
+/* Contact Page Styles */
+.contact {
+    background: #f5f5f5;
+    padding: 60px;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+
+.contact p {
+    font-size: 18px;
+}/* Home Page Styles */
+.navbar {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+.contact a {
+    background: #ff8800;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
